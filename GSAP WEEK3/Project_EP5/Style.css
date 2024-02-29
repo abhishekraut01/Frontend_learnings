@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Almighty;
+    src: url(/Heading-Now-Variable.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: "Clarkson", Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#loader{
+  height: 100vh;
+  width: 100%;
+  background-color:aliceblue;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#loader h1{
+  font-size: 100px;
+  font-family: monospace;
+  font-weight: 999;
+  color: #000;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    font-size: 2vw;
+    font-weight: 555 ;
+    font-stretch: inherit;
+    margin-left: 30px;
+}
+
+.menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+  }
+  .line {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  
+#nav-part3 {
+    font-size: 5px;
+    margin-right: 30px
+}
+
+#nav {
+    height: 10vh;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-part2 {
+    display: flex;
+    gap: 5vw;
+    list-style: none;
+    margin-right: 10%;
+    font-size: 17px;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#page1 h1 {
+    font-size: 35vw;
+    text-transform: uppercase;
+    font-family: Almighty;
+    white-space: nowrap;
+    font-stretch: 250%;
+    font-weight: 999;
+}
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #717575;
+}
+
+#page3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
