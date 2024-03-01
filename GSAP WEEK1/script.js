@@ -26,7 +26,7 @@ animation.from("#main h5",{
     yoyo:true,
     y:30,
     repeat:-1,
-    duration:1
+    duration:1.2
 })
 
  
