@@ -2,7 +2,7 @@ var animation = gsap.timeline()
 
 animation.from("#nav img,#nav h3,#nav h4,.btn", {
     opacity: 0, duration: 1,
-    stagger: .2
+    stagger: .1
 })
 
 animation.from("#left-img", {
