@@ -19,7 +19,7 @@ animation.from("#right2-img", {
  })
 
 animation.from("#left2-img", {
-    xPercent: 25,yPercent:-78,rotationY:"90deg",duration:.3
+    xPercent: 25,yPercent:-77,rotationY:"90deg",duration:.3
 })
 
 animation.from("#main h5",{
