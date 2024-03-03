@@ -1,0 +1,159 @@
+@font-face {
+    font-family: cha;
+    src: url(/gilroy/Gilroy-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cha;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+#nav-part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#nav h3 {
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 100;
+    padding: 5px 10px;
+}
+
+#nav i {
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 100;
+    padding: 5px 10px;
+}
+
+#nav-part2 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nav button {
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#nav #btn-2 {
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav-part3 {
+    display: flex;
+    gap: 10px;
+}
+
+#text h1 {
+    font-size: 160px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+}
+
+#main-img img {
+    height: 350px;
+    width: 270px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+#main-img #img1 {
+    transform: translate(-50%, -50%)rotate(-40deg);
+}
+
+#main-img #img2 {
+    transform: translate(-50%, -50%)rotate(-30deg);
+}
+
+#main-img #img3 {
+    transform: translate(-50%, -50%)rotate(-20deg);
+}
+
+#main-img #img4 {
+    transform: translate(-50%, -50%);
+}
+
+#btm-left h3 {
+    position: absolute;
+    top: 90%;
+    left: 35px;
+    font-weight: 100;
+}
+
+#btm-right {
+    position: absolute;
+    right: 35px;
+    top: 90%;
+    font-weight: 300;
+}
+
+#btm-right #icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#btm-right h2{
+   font-size: 15px;
+}
+
+#line{
+    
+    height: 1px;
+    width: 200px;
+    background-color: #000;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
