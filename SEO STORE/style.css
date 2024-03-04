@@ -1,0 +1,186 @@
+@font-face {
+    font-family: my-font ;
+    src: url(/fa-solid-900.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    /* background-color: #fff; */
+    font-family: my-font;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+/* -----------------NAV BAR CODE ------------------------ */
+
+#nav {
+    height:70px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #dadada;
+    padding: 0vw 5vw;
+    
+}
+
+#nav-part2 {
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+#nav-part2 i{
+    display: none;
+}
+
+#btn{
+    padding: 10px 30px;
+    background-color:#20b2aa ;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+/* ---------------------PAGE 1 CODE -------------------- */
+
+#page1{
+    /* background-color: salmon; */
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 5vw 5vw;
+
+}
+.left h1{
+    font-size: 4vw;
+    line-height: 1.3;
+}
+.left h1 Span{
+    color: lightseagreen;
+}
+.left p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+button{
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 1.3vw 2.3vw;
+    background-color: #20b2aa;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.animated{
+    height: 100%;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+/* -------------------PAGE 2 SECTION--------------------- */
+
+#page2{
+    background-color: rgb(247, 174, 166);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* -------------------PAGE 3 SECTION--------------------- */
+
+#page3{
+    background-color: rgb(250, 239, 114);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* -------------------PAGE 4 SECTION--------------------- */
+
+#page4{
+    background-color: rgb(168, 253, 248);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* -------------------PAGE 5 SECTION--------------------- */
+
+#page5{
+    background-color: rgb(232, 164, 245);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+
+/* ---------------------RESPONSIVE ---------------------- */
+
+@media (max-width:600px) {
+    #nav-part2 li{
+        display: none;
+    }
+    #nav-part2 i{
+        display: block !important ;
+        font-size: 6vw;
+    }
+    #page1{
+        flex-direction: column;
+        height: 110%;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .animated{
+        width: 90%;
+    }
+    .left{
+        height: 100%;
+        width: 100%;
+    }
+    .left h1{
+        padding-top: 5vh;
+        font-size: 10vw;
+        padding-left: 5vh;
+    }
+    .left p{
+        visibility: hidden;
+    }
+    .left button{
+        margin-left: 30vw;
+        padding: 2vh 3vh;
+        font-size: 3.2vw;
+    }
+   
+}
