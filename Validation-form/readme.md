@@ -1,0 +1,1 @@
+ create a from with input fields and a submit button. use javascript to validate the form and display an error messege if the input is invalid
