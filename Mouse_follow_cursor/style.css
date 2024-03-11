@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.makeitred{
+    color: red;
+    font-size: 50px;
+}
+
+#cursor{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    pointer-events: none;
+    border: 1px solid #000;
+}
